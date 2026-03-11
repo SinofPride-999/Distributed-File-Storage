@@ -18,3 +18,7 @@ func NewTCPTransport(listenAddr string) *TCPTransport {
 		listenAddress: listenAddr,
 	}
 }
+
+func (t *TCPTransport) ListenAndAccept() {
+
+}
